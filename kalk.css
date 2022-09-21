@@ -1,0 +1,94 @@
+html,body{margin:0; padding:0}
+
+body{
+    background-color: #41B3A3;
+}
+#background{
+    margin: auto;
+    background-color: #85DCB3;
+    width: 80vw;
+    height: 100vh;
+  }
+
+#header_kalk{
+    background-color: #E27D60;
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+    height: 10vh;
+  }
+  .meny{
+    display: flex;
+    justify-content: space-around;
+    background-color: #C38D9E;
+    padding: 10px;
+    margin-top: 20px;
+  }
+#kalk_title{
+    margin: auto;
+}
+#table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#demo{
+    text-align: center;
+}
+#answer{
+    position: relative;
+    text-align: center;
+}
+/*Linkene*/
+/*#link_quote_div{
+    position: absolute;
+    top: 40vh;
+    right: 54vw;
+}
+*/
+#link_quote{
+    text-decoration: double;
+    color: #5cf520;
+}
+#link_quote:hover{
+    color: red;
+}
+/*#link_cat_div{
+    position: absolute;
+    top: 40vh;
+    right: 40vw;
+}
+*/
+#link_cat{
+    text-decoration: none;
+    color: #5cf520;
+}
+#link_cat:hover{
+    color: red;
+}
+/*Bilder*/
+
+.bilde_class{
+    display: flex;
+    justify-content: space-around;
+
+}
+#kalkulator_bilde{
+    height: 300px;
+    width: 300px;
+}
+/*#kalkulator_bilde_div{
+    position: absolute;
+    right: 10vw;
+    top: 40vh;
+}
+
+#school_div{
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+}
+*/
+#school_bilde{
+    height: 300px;
+    width: 300px;
+}

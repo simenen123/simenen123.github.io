@@ -1,0 +1,96 @@
+/*Her er css for kalkulator siden*/
+
+
+/*Her er css for quote side*/
+body{
+    background-color: #277e79;
+
+  }
+  #header{
+    margin-top: 0%;
+    text-align: center;
+    width: 100vw;
+    height: 10vh;
+  }
+  #container{
+    background-color: #353e75;
+    border: 7px solid white;
+    height: 275px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #btn{
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    border: none;
+    background-color: pink;
+  }
+  #output{
+    color: white;
+    font-size: 20px;
+  }
+  /*Linker*/
+
+  #link_kalk{
+    position: absolute;
+    top: 50vh;
+    right: 30vw;
+  }
+  #link_cat{
+    position: absolute;
+    top: 50vh;
+    right: 60vw;
+    color: #C509F5;
+  }
+  #link_cat:hover{
+    color: #1df509;
+  }
+  #bruh{
+    color: #C509F5;
+  }
+  #bruh:hover{
+    color: #1df509;
+  }
+
+  /*cat heaven css*/
+
+  #cat{
+    position: absolute;
+    width: 1350px;
+    height: 600px;
+  }
+  #header_cat{
+    position: absolute;
+    text-align: center;
+    width: 80vw;
+    height: 10vh;
+    z-index: 5;
+    left: 9.5%;
+  }
+  #Cat_title{
+    color: #ffffff;
+  }
+  .meny{
+    display: flex;
+    justify-content: space-around;
+    background-color: #C38D9E;
+    padding: 10px;
+    margin-top: 20px;
+    z-index: 3;
+  }
+  #cat_link_kalk{
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    z-index: 7;
+  }
+  #link_quote{
+    text-decoration: none;
+    z-index: 7;
+    position: absolute;
+    color: #ffffff;
+  }
+  
